@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaBookOpen } from "react-icons/fa";
 import { IoMdAdd } from "react-icons/io";
 import { CiViewBoard } from "react-icons/ci";
+import { IoMdHome } from "react-icons/io";
 import axios from "axios"; // Import axios for API calls
 
 function UserProfile() {
@@ -67,6 +68,16 @@ function UserProfile() {
           <div className="p-3 py-5">
             <div className="d-flex justify-content-between align-items-center mb-3">
               <h4 className="text-right">Profile Settings</h4>
+              <Link to="/">
+                <button
+                  className="btn"
+                  style={{ backgroundColor: "#184eb4e7", color: "white" }}
+                >
+                  <span>
+                    <IoMdHome />
+                  </span>
+                </button>
+              </Link>
             </div>
             <div className="d-flex justify-content-between align-items-center mb-3">
               <Link to="/bookings">
@@ -124,4 +135,3 @@ function UserProfile() {
 }
 
 export default UserProfile;
-

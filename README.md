@@ -14,6 +14,9 @@ BookMyTrip focuses on essential features to ensure users have a seamless experie
 - **Booking Management**: Features to view booked flights, add and view third-party bookings, and book real tickets (other than flights) by filling in the details on our website, which then redirects to the actual service provider's website.
 - **And much more** small but necessary features that enhance the overall user experience and functionality.
 
+## Screenshots
+![All Photos] (screenshots)
+
 ## Features
 
 ### Email OTP-Based Registration

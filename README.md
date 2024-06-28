@@ -15,7 +15,7 @@ BookMyTrip focuses on essential features to ensure users have a seamless experie
 - **And much more** small but necessary features that enhance the overall user experience and functionality.
 
 ## Screenshots
-![All Photos] (screenshots)
+![All Photos](screenshots)
 
 ## Features
 
